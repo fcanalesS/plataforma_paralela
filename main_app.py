@@ -1,9 +1,4 @@
-import os
-import sys
-
-import web
-
-from blog import app_blog
+import os, sys, web
 from realzado_filtrado import app_realzadoFiltrado
 
 include_dirs = ['paquetes']
@@ -15,7 +10,6 @@ from layout import Layout_main
 
 urls = (
     '/', 'Index',
-    '/blog', app_blog,
     '/realzado-imagen', app_realzadoFiltrado
 )
 
@@ -35,6 +29,7 @@ def variables_locales():
     web.template.Template.globals['render'] = render_plain
     web.template.Template.globals['msg'] = message
     web.template.Template.globals['css'] = Layout_main().main_css
+    web.template.Template.globals['js'] = Layout_main().main_js
     web.template.Template.globals['integrantes'] = Layout_main().integrantes
 
 
@@ -49,7 +44,6 @@ class MyApp(web.application):
 
 class Index:
     def GET(self):
-        print web.ctx.status
         return htmlout.index()
 
 

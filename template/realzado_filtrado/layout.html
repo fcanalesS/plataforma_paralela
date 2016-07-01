@@ -4,10 +4,12 @@ $def with (content)
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>$content.title</title>
     $:css()
 </head>
 <body>
     $:content
+
+    $:js()
 </body>
 </html>

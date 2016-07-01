@@ -10,8 +10,18 @@ body{
 
 .divider{
     border-top: 1px solid black;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.upload-file{
+    display: none;
+}
+
+.wrapper{
+    background-color: white;
+    padding: 1em;
+    border-top: 5px solid rebeccapurple;
 }
 
 #main-content{

@@ -7,6 +7,10 @@ class Layout_main:
         out = web.template.frender(template_dir + '/css.html')
         return out()
 
+    def main_js(self):
+        out = web.template.frender(template_dir + '/js.html')
+        return out()
+
     def integrantes(self):
         out = web.template.frender(template_dir + '/integrantes.html')
         return out()

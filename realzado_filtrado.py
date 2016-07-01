@@ -26,7 +26,7 @@ def variables_locales():
     web.template.Template.globals['render'] = render_plain
     web.template.Template.globals['msg'] = message
     web.template.Template.globals['css'] = Layout_main().main_css
-    # web.template.Template.globals['integrantes'] = Layout_main().integrantes
+    web.template.Template.globals['js'] = Layout_main().main_js
 
 app_realzadoFiltrado.add_processor(web.loadhook(variables_locales))
 
@@ -34,6 +34,9 @@ app_realzadoFiltrado.add_processor(web.loadhook(variables_locales))
 class helper:
     def GET(self):
         raise web.seeother('/')
+
+    def POST(self):
+        return web.input()
 
 
 class Index:
