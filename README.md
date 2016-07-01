@@ -48,4 +48,14 @@ $ ./sh install-opencv.sh
 
 **Nota**: Precaución en la linea 47 del script "install-opencv.sh", cambiar el número 4 por la cantidad de procesadores que tenga disponible en su computador
 
+Ejecutar la aplicación
+-------------
+Dentro del directorio raiz, ejecutar el siguiente comando en el terminal de Linux
+
+```bash
+$ python main_app.py
+```
+
+Abrirá un socket (http://localhost:8080) donde se podrá ver, en pleno, la aplicación
+
 
