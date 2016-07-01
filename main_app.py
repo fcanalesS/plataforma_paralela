@@ -49,7 +49,6 @@ class MyApp(web.application):
 
 class Index:
     def GET(self):
-        print web.ctx.status
         return htmlout.index()
 
 
