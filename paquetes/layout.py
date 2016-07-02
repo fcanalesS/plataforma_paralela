@@ -16,6 +16,17 @@ class Layout_main:
         return out()
 
 
+class Formularios:
+    def form1(self):
+        out = web.template.frender(template_dir + '/form1.html')
+        return out()
+
+    def form2(self):
+        out = web.template.frender(template_dir + '/form2.html')
+        return out()
+
+
 class Layout_rf:
     def main_css(self):
         return "<hr>HOLA<hr>"
+

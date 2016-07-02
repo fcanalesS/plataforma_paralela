@@ -2,6 +2,10 @@ body{
     background-color: #555;
 }
 
+img{
+    padding: 1em;
+}
+
 .center-img{
     margin-left: auto;
     margin-right: auto;
@@ -10,8 +14,8 @@ body{
 
 .divider{
     border-top: 1px solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .upload-file{

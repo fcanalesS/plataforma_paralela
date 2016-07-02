@@ -1,16 +1,18 @@
 import os, sys, web
 from realzado_filtrado import app_realzadoFiltrado
+from mejora import app_mejora
 
 include_dirs = ['paquetes']
 
 for dirname in include_dirs:
     sys.path.append(os.path.dirname(__file__) + '/' + dirname)
 
-from layout import Layout_main
+from layout import Layout_main, Formularios
 
 urls = (
     '/', 'Index',
-    '/realzado-imagen', app_realzadoFiltrado
+    '/realzado-imagen', app_realzadoFiltrado,
+    '/mejora', app_mejora
 )
 
 app = web.application(urls, locals())
@@ -31,6 +33,8 @@ def variables_locales():
     web.template.Template.globals['css'] = Layout_main().main_css
     web.template.Template.globals['js'] = Layout_main().main_js
     web.template.Template.globals['integrantes'] = Layout_main().integrantes
+    web.template.Template.globals['form1'] = Formularios().form1
+    web.template.Template.globals['form2'] = Formularios().form2
 
 
 app.add_processor(web.loadhook(variables_locales()))
@@ -45,6 +49,24 @@ class MyApp(web.application):
 class Index:
     def GET(self):
         return htmlout.index()
+
+    def POST(self):
+        x = web.input(imagen={})
+        filedir = static_dir + '/img'  # change this to the directory you want to store the file in.
+        if 'imagen' in x:  # to check if the file-object is created
+            filepath = x.imagen.filename.replace('\\', '/')  # replaces the windows-style slashes with linux ones.
+            filename = filepath.split('/')[-1]  # splits the and chooses the last part (the filename with extension)
+            if filename.split('.')[-1] == 'jpg' or filename.split('.')[-1] == 'png':
+                filename1 = '001.jpg'
+                fout = open(filedir + '/' + filename1, 'w')  # creates the file where the uploaded file should be stored
+                fout.write(x.imagen.file.read())  # writes the uploaded file to the newly created file.
+                fout.close()  # closes the file, upload complete.
+                os.system('mv ' + filedir + '/' + filename1 + ' ' + filedir + '/' + '001.jpg')
+                raise web.seeother('/realzado-imagen/')
+            else:
+                global message
+                message = 'No se acepta este tipo de archivos, intente nuevamente ! ! !'
+                raise web.seeother('/')
 
 
 if __name__ == '__main__':

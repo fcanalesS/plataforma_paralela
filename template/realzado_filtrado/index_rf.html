@@ -7,18 +7,12 @@ $var title = 'Realzado y filtrado'
             <div class="wrapper">
                 <div class="row">
                     <div class="col-md-3">
-                        <button class="btn btn-success center-block" id="subir-imagen">Subir imágen</button>
-                        <br>
-                        <div class="upload-file">
-                            <form action="/realzado-imagen" method="post" enctype="multipart/form-data">
-                                <input name="image" type="file" class="center-block" />
-                                <input class="center-block" type="submit">
-                            </form>
-                        </div>
-                        <div class="divider"></div>
+                        <button class="btn btn-default center-block" id="autocorreccion">Autocorreción</button>
                     </div>
                     <div class="col-md-9">
-                        <img class="img img-responsive" src="/static" alt="Imágen a tratar. . .">
+                        <div class="imagen">
+                            <img class="img img-responsive" src="/static/img/001.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
