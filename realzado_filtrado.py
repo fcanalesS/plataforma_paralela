@@ -66,8 +66,8 @@ class AutoCorreccion:
         _, data = cv2.imencode('.jpg', img)
         jpg_data = base64.b64encode(data.tostring())
 
-        os.system('python %s/automejora.py' % algoritmos_path)
-        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/automejora.py' % (p, algoritmos_path))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         return jpg_data
 
