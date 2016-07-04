@@ -49,3 +49,23 @@ enfoque_desenfoque.noUiSlider.on('end', function (values, handle) {
         jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
     })
 });
+
+//*************************************************************************************
+
+jQuery('#negativo').click(function () {
+    jQuery.get('/realzado-imagen/inversion-colores', function (result) {
+        jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
+
+jQuery('#grises').click(function () {
+    jQuery.get('/realzado-imagen/escala-grises', function (result) {
+        jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
+
+jQuery('#sepia').click(function () {
+    jQuery.get('/realzado-imagen/sepia', function (result) {
+        jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});

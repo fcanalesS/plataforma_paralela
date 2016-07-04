@@ -1,5 +1,6 @@
 from mpi4py import MPI
 import cv2, os
+import numpy as np
 from time import time
 
 comm = MPI.COMM_WORLD
@@ -7,8 +8,9 @@ rank = comm.Get_rank()
 size = comm.Get_size()
 
 
-def negativo(img):
-    result = abs(255 - img)
+def gris(img):
+
+    result = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     return result
 
@@ -24,13 +26,12 @@ else:
         region = img[(alt / size) * rank:(alt / size) * (rank + 1) + 25, 0:ancho]
     else:
         region = img[(alt / size) * rank - 25:(alt / size) * (rank + 1) + 25, 0:ancho]
-    regionEditada = negativo(region)
-    alt, ancho, canales = regionEditada.shape
+    regionEditada = gris(region)
+    alt, ancho = regionEditada.shape
     if rank == 0:
         regionEditada = regionEditada[0:alt - 25, 0:ancho]
     else:
         regionEditada = regionEditada[25:alt - 25, 0:ancho]
     cv2.imwrite(os.getcwd() + '/images/regionEditada_' + str(rank) + ".jpg", regionEditada)
-    elapsed_time = time() - start
-
-    print "TIEMPO SEGUNDOS: ", elapsed_time
+    elapsed = time() - start
+    print "TIEMPO SEC: ", elapsed

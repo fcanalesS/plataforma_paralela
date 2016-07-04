@@ -1,6 +1,7 @@
 import web, os
 
 template_dir = os.path.abspath(os.path.dirname(__file__)) + '/../template'
+template_dir_rf = os.path.abspath(os.path.dirname(__file__)) + '/../template/realzado_filtrado'
 
 class Layout_main:
     def main_css(self):
@@ -25,6 +26,18 @@ class Formularios:
         out = web.template.frender(template_dir + '/form2.html')
         return out()
 
+class Opciones:
+    def op1(self):
+        out = web.template.frender(template_dir_rf + '/op1.html')
+        return out()
+
+    def op2(self):
+        out = web.template.frender(template_dir_rf + '/op2.html')
+        return out()
+
+    def op3(self):
+        out = web.template.frender(template_dir_rf + '/op3.html')
+        return out()
 
 class Layout_rf:
     def main_css(self):

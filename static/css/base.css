@@ -2,6 +2,10 @@ body{
     background-color: #555;
 }
 
+.boton{
+    margin-bottom: 1em;
+}
+
 .center-img{
     margin-left: auto;
     margin-right: auto;
@@ -9,7 +13,7 @@ body{
 }
 
 .divider{
-    border-top: 1px solid black;
+    border-top: 1px solid rebeccapurple;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -22,6 +26,10 @@ body{
     background-color: white;
     padding: 1em;
     border-top: 5px solid rebeccapurple;
+}
+
+#enfoque-desenfoque{
+    margin-top: 1em;
 }
 
 #main-content{

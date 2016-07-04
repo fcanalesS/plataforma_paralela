@@ -9,7 +9,11 @@ from layout import Layout_main
 
 urls = (
     '', 'helper',
-    '/', 'Index'
+    '/', 'Index',
+#  Urls ajax para el proceso de imagen
+    '/mejora-brillo', 'MejoraBrillo',
+    '/mejora-contraste', 'MejoraContraste',
+    '/mejora-hdr', 'MejoraHDR'
 )
 
 app_mejora = web.application(urls, locals())
@@ -39,4 +43,4 @@ class helper:
 
 class Index:
     def GET(self):
-        return "HOLA"
+        return htmlout.index_m()

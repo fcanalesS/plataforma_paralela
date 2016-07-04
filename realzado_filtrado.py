@@ -6,7 +6,7 @@ include_dirs = ['paquetes']
 for dirname in include_dirs:
     sys.path.append(os.path.dirname(__file__) + '/' + dirname)
 
-from layout import Layout_main
+from layout import Layout_main, Opciones
 
 urls = (
     '', 'helper',
@@ -24,6 +24,7 @@ urls = (
     '/posicionar-bordes', 'PosicionarBordes',
     '/deformacion-malla', 'DeformacionMalla',
     '/inversion-colores', 'InversionColores',
+    '/escala-grises', 'EscalaGrises',
     '/sepia', 'EfectoSepia',
     '/rgb', 'EfectoRgb',
     '/log', 'EfectoLog',
@@ -49,6 +50,9 @@ def variables_locales():
     web.template.Template.globals['msg'] = message
     web.template.Template.globals['css'] = Layout_main().main_css
     web.template.Template.globals['js'] = Layout_main().main_js
+    web.template.Template.globals['op1'] = Opciones().op1
+    web.template.Template.globals['op2'] = Opciones().op2
+    web.template.Template.globals['op3'] = Opciones().op3
 
 
 app_realzadoFiltrado.add_processor(web.loadhook(variables_locales))
@@ -147,12 +151,36 @@ class DeformacionMalla:
 
 class InversionColores:
     def GET(self):
-        return NotImplemented
+        os.system('mpiexec -np %s python %s/negativo.py' % (p, algoritmos_path))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
+        img = cv2.imread(img_path + 'regionEditada_0.jpg')
+        _, data = cv2.imencode('.jpg', img)
+        jpg_data = base64.b64encode(data.tostring())
+
+        return jpg_data
+
+class EscalaGrises:
+    def GET(self):
+        os.system('mpiexec -np %s python %s/grises.py' % (p, algoritmos_path))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+
+        img = cv2.imread(img_path + 'regionEditada_0.jpg')
+        _, data = cv2.imencode('.jpg', img)
+        jpg_data = base64.b64encode(data.tostring())
+
+        return jpg_data
 
 class EfectoSepia:
     def GET(self):
-        return NotImplemented
+        os.system('mpiexec -np %s python %s/sepia.py' % (p, algoritmos_path))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+
+        img = cv2.imread(img_path + 'regionEditada_0.jpg')
+        _, data = cv2.imencode('.jpg', img)
+        jpg_data = base64.b64encode(data.tostring())
+
+        return jpg_data
 
 
 class EfectoRGB:
