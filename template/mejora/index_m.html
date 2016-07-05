@@ -16,32 +16,33 @@ $var title = 'Mejora de imágen'
                         <br><br>
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <h4>Brillo</h4>
-                                <div id="brillo"></div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <p class="help-block">-</p>
+                                <div id="bc">
+                                    <h4>Brillo</h4>
+                                    <div class="sliders2" id="brillo"></div>
+                                    <br>
+                                    <h4>Contraste</h4>
+                                    <div class="sliders2" id="contraste"></div>
+                                    <br>
                                 </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <p class="help-block text-right">+</p>
-                                </div>
+                                <button class="btn btn-default center-block" id="btn-bc">Aceptar</button>
+                                <input type="text" id="brightInp" hidden>
+                                <input type="text" id="contrastInp" hidden>
                             </div>
                         </div>
                         <div class="divider"></div>
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <h4>Contraste</h4>
-                                <div id="contraste"></div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <p class="help-block">-</p>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <p class="help-block text-right">+</p>
+                                <h4 class="text-center">Mejora HDR</h4><br>
+                                <form action="/mejora/mejora-hdr" method="post" enctype="multipart/form-data">
+                                    <input name="myfile" type="file" class="center-block">
+                                    <button type="submit" class="btn btn-success center-block">Enviar</button>
+                                </form>
+                                <div class="alert alert-danger center-block" role="alert">
+                                    <p class="text-center">
+                                        $:msg
+                                    </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="row">
-                            <!---->
                         </div>
                         <div class="divider"></div>
                     </div>
