@@ -16,17 +16,19 @@ $var title = 'Mejora de imágen'
                         <br><br>
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <div id="bc">
-                                    <h4>Brillo</h4>
-                                    <div class="sliders2" id="brillo"></div>
-                                    <br>
-                                    <h4>Contraste</h4>
-                                    <div class="sliders2" id="contraste"></div>
-                                    <br>
+                                <h4>Brillo</h4>
+                                <div class="col-md-12">
+                                    <div id="brillo"></div>
                                 </div>
-                                <button class="btn btn-default center-block" id="btn-bc">Aceptar</button>
-                                <input type="text" id="brightInp" hidden>
-                                <input type="text" id="contrastInp" hidden>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h4>Contraste</h4>
+                                <div class="col-md-12">
+                                    <div id="contraste"></div>
+                                </div>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -37,17 +39,18 @@ $var title = 'Mejora de imágen'
                                     <input name="myfile" type="file" class="center-block">
                                     <button type="submit" class="btn btn-success center-block">Enviar</button>
                                 </form>
-                                <div class="alert alert-danger center-block" role="alert">
-                                    <p class="text-center">
-                                        $:msg
-                                    </p>
-                                </div>
+                                $if msg:
+                                    <div class="alert alert-danger center-block" role="alert">
+                                        <p class="text-center">
+                                            $:msg
+                                        </p>
+                                    </div>
                             </div>
                         </div>
                         <div class="divider"></div>
                     </div>
                     <div class="col-md-9">
-                        <div class="imagen">
+                        <div id="imagen">
                             <img class="img img-responsive" src="/static/img/001.jpg" alt="">
                         </div>
                     </div>

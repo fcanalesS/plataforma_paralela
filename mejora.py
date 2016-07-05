@@ -13,7 +13,7 @@ urls = (
     '', 'helper',
     '/', 'Index',
     #  Urls ajax para el proceso de imagen
-    '/mejora-brillo-contraste', 'MejoraBrilloContraste',
+    '/mejora-brillo', 'MejoraBrillo',
     '/mejora-hdr', 'MejoraHDR'
 )
 
@@ -44,22 +44,18 @@ class helper:
         raise web.seeother('/')
 
 
-class MejoraBrilloContraste:
+class MejoraBrillo:
     def GET(self):
+        brillo = (float(web.input().brillo)+100)/100
+        os.system('mpiexec -np %s python %s/brillo.py %s' % (p, algoritmos_path, brillo))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
-        brillo = (float(web.input().brillo) + 100) / 100
-        contraste = (float(web.input().contraste) + 100) / 100
-
-        print brillo, contraste
-
-        os.system('mpiexec -np %s python %s/bc.py %s %s' % (p, algoritmos_path, contraste, brillo))
-
-        img = cv2.imread(img_path + 'regionEditada_0.jpg', cv2.IMREAD_COLOR)
-
+        img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
-        jpg_data = base64.b64decode(data.tostring())
+        jpg_data = base64.b64encode(data.tostring())
 
         return jpg_data
+
 
 class MejoraHDR:
     def POST(self):
