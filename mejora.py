@@ -1,7 +1,6 @@
-import json
-
 import cv2
 import web, sys, os, base64
+
 p = 4
 
 include_dirs = ['paquetes']
@@ -49,7 +48,7 @@ class helper:
 
 class MejoraBrillo:
     def GET(self):
-        brillo = (float(web.input().brillo)+100)/100
+        brillo = (float(web.input().brillo) + 100) / 100
         os.system('mpiexec -np %s python %s/brillo.py %s' % (p, algoritmos_path, brillo))
         # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
@@ -58,6 +57,7 @@ class MejoraBrillo:
         jpg_data = base64.b64encode(data.tostring())
 
         return jpg_data
+
 
 class MejoraContraste:
     def GET(self):
@@ -74,7 +74,7 @@ class MejoraContraste:
 
 class MejoraHDR:
     def GET(self):
-        #funcion para borrar weas
+        # funcion para borrar weas
         print os.getcwd()
 
         file = os.listdir(img_path + 'HDR/')[0]
@@ -103,14 +103,6 @@ class MejoraHDR:
         jpg_base64 = base64.b64encode(data.tostring())
 
         return jpg_base64
-
-
-
-
-
-
-
-
 
     def POST(self):
         x = web.input(myfile={})

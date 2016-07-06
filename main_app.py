@@ -1,6 +1,7 @@
 import os, sys, web
 from realzado_filtrado import app_realzadoFiltrado
 from mejora import app_mejora
+from op_mate import app_operadores
 
 include_dirs = ['paquetes']
 
@@ -12,7 +13,8 @@ from layout import Layout_main, Formularios
 urls = (
     '/', 'Index',
     '/realzado-imagen', app_realzadoFiltrado,
-    '/mejora', app_mejora
+    '/mejora', app_mejora,
+    '/operadores-matematicos', app_operadores,
 )
 
 app = web.application(urls, locals())
@@ -62,7 +64,12 @@ class Index:
                 fout.write(x.imagen.file.read())  # writes the uploaded file to the newly created file.
                 fout.close()  # closes the file, upload complete.
                 os.system('mv ' + filedir + '/' + filename1 + ' ' + filedir + '/' + '001.jpg')
-                raise web.seeother('/realzado-imagen/')
+                if x.imagen1 == 'realzado-filtrado':
+                    raise web.seeother('/realzado-imagen/')
+                elif x.imagen1 == 'mejora':
+                    raise web.seeother('/mejora/')
+                elif x.imagen1 == 'matematica':
+                    raise web.seeother('/operadores-matematicos/')
             else:
                 global message
                 message = 'No se acepta este tipo de archivos, intente nuevamente ! ! !'
