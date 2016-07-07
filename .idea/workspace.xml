@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd7619bc-f740-4307-9f4e-3a5e1b18b333" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/polar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/rgb.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/algoritmos/mejora/bc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mirrorImage.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/regionEditada_0.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/001.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_app.py" afterPath="$PROJECT_DIR$/main_app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op_mate.py" afterPath="$PROJECT_DIR$/op_mate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realzado_filtrado.py" afterPath="$PROJECT_DIR$/realzado_filtrado.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base.js" afterPath="$PROJECT_DIR$/static/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/css.html" afterPath="$PROJECT_DIR$/template/css.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/form2.html" afterPath="$PROJECT_DIR$/template/form2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/operadores_m/index_om.html" afterPath="$PROJECT_DIR$/template/operadores_m/index_om.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/operadores_m/layout.html" afterPath="$PROJECT_DIR$/template/operadores_m/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/index_rf.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/index_rf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/layout.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/op1.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/op1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/op4.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/op4.html" />
     </list>
     <ignored path="plataforma_paralela.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -700,9 +684,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30227274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30227274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
