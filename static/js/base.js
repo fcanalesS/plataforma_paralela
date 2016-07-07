@@ -77,7 +77,15 @@ nearest.noUiSlider.on('end', function (values) {
         url: '/realzado-imagen/redimensionar-nearest',
         data: {'valor': parseInt(values)}
     }).success(function (result) {
-        jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        if (result == 'None'){
+            jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
+                'Ha ocurrido un error en la plataforma paralela. ' +
+                '<strong>No se ha podido procesar la imagen</strong>' +
+                '</div>')
+        }
+        else{
+            jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        }
     })
 });
 
@@ -94,7 +102,15 @@ bicubic.noUiSlider.on('end', function (values) {
         url: '/realzado-imagen/redimensionar-nearest',
         data: {'valor': parseInt(values)}
     }).success(function (result) {
-        jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        if (result == 'None'){
+            jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
+                'Ha ocurrido un error en la plataforma paralela. ' +
+                '<strong>No se ha podido procesar la imagen</strong>' +
+                '</div>')
+        }
+        else{
+            jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        }
     })
 });
 
@@ -111,6 +127,68 @@ bilineal.noUiSlider.on('end', function (values) {
         url: '/realzado-imagen/redimensionar-nearest',
         data: {'valor': parseInt(values)}
     }).success(function (result) {
+        if (result == 'None'){
+            jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
+                'Ha ocurrido un error en la plataforma paralela. ' +
+                '<strong>No se ha podido procesar la imagen</strong>' +
+                '</div>')
+        }
+        else{
+            jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        }
+    })
+});
+
+jQuery('#bordes').click(function () {
+    jQuery.get('/realzado-imagen/posicionar-bordes', function (result) {
+        if (result == 'None'){
+            jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
+                'Ha ocurrido un error en la plataforma paralela. ' +
+                '<strong>No se ha podido procesar la imagen</strong>' +
+                '</div>')
+        }
+        else{
+            jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        }
+    })
+});
+
+jQuery('#polar').click(function () {
+    jQuery.get('/realzado-imagen/polar', function (result) {
+        jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
+
+jQuery('#rgb').click(function () {
+    jQuery.get('/realzado-imagen/rgb', function (result) {
+        if (result == 'None'){
+            jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
+                'Ha ocurrido un error en la plataforma paralela. ' +
+                '<strong>No se ha podido procesar la imagen</strong>' +
+                '</div>')
+        }
+        else{
+            jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        }
+    })
+});
+
+jQuery('#log_ri').click(function () {
+    jQuery.get('/realzado-imagen/log', function (result) {
+        if (result == 'None'){
+            jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
+                'Ha ocurrido un error en la plataforma paralela. ' +
+                '<strong>No se ha podido procesar la imagen</strong>' +
+                '</div>')
+        }
+        else{
+            jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        }
+    })
+});
+
+jQuery('#espejo').click(function () {
+    jQuery.get('/realzado-imagen/espejo', function (result) {
         if (result == 'None'){
             jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
                 'Ha ocurrido un error en la plataforma paralela. ' +

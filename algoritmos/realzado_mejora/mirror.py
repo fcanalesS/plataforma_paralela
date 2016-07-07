@@ -10,16 +10,10 @@ rank = comm.Get_rank()
 size = comm.Get_size()
 
 
-def brilloContraste(img):
-    img2hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-    h, s, v = cv2.split(img2hsv)
+def _mirror(img):
+    mirror = cv2.flip(img, 1)
 
-    s = cv2.multiply(s, np.array([float(sys.argv[1])]))
-    v = cv2.multiply(v, np.array([float(sys.argv[2])]))
-
-    res = cv2.merge((h, s, v))
-
-    result = cv2.cvtColor(res, cv2.COLOR_HSV2BGR)
+    result = np.hstack((img, mirror))
 
     return result
 
@@ -36,12 +30,13 @@ else:
         region = img[(alt / size) * rank:(alt / size) * (rank + 1) + 25, 0:ancho]
     else:
         region = img[(alt / size) * rank - 25:(alt / size) * (rank + 1) + 25, 0:ancho]
-    regionEditada = brilloContraste(region)
+    regionEditada = _mirror(region)
     alt, ancho, canales = regionEditada.shape
     if rank == 0:
         regionEditada = regionEditada[0:alt - 25, 0:ancho]
     else:
         regionEditada = regionEditada[25:alt - 25, 0:ancho]
-    cv2.imwrite(os.getcwd() + '/images/regionEditada_' + str(rank) + ".jpg", regionEditada)
+    cv2.imwrite(os.getcwd() + '/images/mirrorImage.jpg', regionEditada)
     elapsed = time() - start
-    print "TIEMPO SEC BC: ", elapsed
+
+    print "TIEMPO ESPEJO: ", elapsed

@@ -12,6 +12,7 @@ from layout import Layout_main, Formularios
 
 urls = (
     '/', 'Index',
+    '/form2', 'Form2',
     '/realzado-imagen', app_realzadoFiltrado,
     '/mejora', app_mejora,
     '/operadores-matematicos', app_operadores,
@@ -74,7 +75,6 @@ class Index:
                 global message
                 message = 'No se acepta este tipo de archivos, intente nuevamente ! ! !'
                 raise web.seeother('/')
-
 
 if __name__ == '__main__':
     app = MyApp(urls, globals())

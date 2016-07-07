@@ -31,7 +31,7 @@ urls = (
     '/rgb', 'EfectoRgb',
     '/log', 'EfectoLog',
     '/efecto-3d-de-imagenes-2d', 'Efecto3Dsobre2D',
-    '/zooming', 'EfectoZooming'
+    '/zooming', 'EfectoZooming',
 
 )
 
@@ -169,12 +169,27 @@ class EnfoqueDesenfoque:
 
 class Espejo:
     def GET(self):
-        return NotImplemented
+        os.system('mpiexec -np %s python %s/mirror.py' % (p, algoritmos_path))
+        # limpiar
 
+        img = cv2.imread(img_path + 'mirrorImage.jpg')
+        _, data = cv2.imencode('.jpg', img)
+        jpg_data = base64.b64encode(data.tostring())
+
+        return jpg_data
+
+        return "None"
 
 class Polar:
     def GET(self):
-        return NotImplemented
+        os.system('mpiexec -np %s python %s/polar.py' % (p, algoritmos_path))
+        #limpiar
+
+        img = cv2.imread(img_path + 'polar.jpg')
+        _, data = cv2.imencode('.jpg', img)
+        jpg_data = base64.b64encode(data.tostring())
+
+        return jpg_data
 
 
 class Bezier:
@@ -184,7 +199,16 @@ class Bezier:
 
 class PosicionarBordes:
     def GET(self):
-        return NotImplemented
+        os.system('mpiexec -np %s python %s/bordes.py' % (p, algoritmos_path))
+
+        try:
+            img = cv2.imread(img_path + 'BORDE_PARALELO.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
 
 
 class DeformacionMalla:
@@ -228,14 +252,29 @@ class EfectoSepia:
         return jpg_data
 
 
-class EfectoRGB:
+class EfectoRgb:
     def GET(self):
-        return NotImplemented
+        os.system('mpiexec -np %s python %s/rgb.py' % (p, algoritmos_path))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+
+        try:
+            img = cv2.imread(img_path + 'rgbout.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
 
 
 class EfectoLog:
     def GET(self):
-        return NotImplemented
+        os.system('mpiexec -np %s python %s/log_ri.py' % (p, algoritmos_path))
+        img = cv2.imread(img_path + 'Logfinal.jpg')
+        _, data = cv2.imencode('.jpg', img)
+        jpg_data = base64.b64encode(data.tostring())
+
+        return jpg_data
 
 
 class Efecto3Dsobre2D:

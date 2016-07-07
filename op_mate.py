@@ -14,6 +14,8 @@ urls = (
     '', 'helper',
     '/', 'Index',
     #  Urls ajax para el proceso de imagen
+    '/fft', 'FFT',
+    '/log', 'LOG',
 )
 
 app_operadores = web.application(urls, locals())
@@ -41,6 +43,36 @@ app_operadores.add_processor(web.loadhook(variables_locales))
 class helper:
     def GET(self):
         raise web.seeother('/')
+
+
+class FFT:
+    def GET(self):
+        os.system('mpiexec -np %s python %s/fft.py' % (p, algoritmos_path))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+
+        try:
+            img = cv2.imread(img_path + 'FOURIER_PARALELO.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
+
+
+class LOG:
+    def GET(self):
+        os.system('mpiexec -np %s python %s/log.py' % (p, algoritmos_path))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+
+        try:
+            img = cv2.imread(img_path + 'laplacian.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
 
 
 class Index:
