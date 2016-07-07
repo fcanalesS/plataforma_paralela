@@ -39,6 +39,10 @@ class Opciones:
         out = web.template.frender(template_dir_rf + '/op3.html')
         return out()
 
+    def op4(self):
+        out = web.template.frender(template_dir_rf + '/op4.html')
+        return out()
+
 class Layout_rf:
     def main_css(self):
         return "<hr>HOLA<hr>"

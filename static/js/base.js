@@ -18,13 +18,6 @@ jQuery('#invertir').click(function () {
     })
 });
 
-jQuery('#redimensionar').click(function () {
-    jQuery.get('/realzado-imagen/redimensionar', function (result) {
-        //jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
-        alert('No implementado')
-    })
-});
-
 jQuery('#convolucion').click(function () {
     jQuery.get('/realzado-imagen/convolucion', function (result) {
         jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
@@ -67,5 +60,65 @@ jQuery('#grises').click(function () {
 jQuery('#sepia').click(function () {
     jQuery.get('/realzado-imagen/sepia', function (result) {
         jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
+
+
+var nearest = document.getElementById('nearest');
+noUiSlider.create(nearest, {
+    start: 0,
+    range: {'min': 0, 'max': 100},
+    step: 2
+});
+
+nearest.noUiSlider.on('end', function (values) {
+    jQuery.ajax({
+        method: 'GET',
+        url: '/realzado-imagen/redimensionar-nearest',
+        data: {'valor': parseInt(values)}
+    }).success(function (result) {
+        jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
+
+var bicubic = document.getElementById('bicubic');
+noUiSlider.create(bicubic, {
+    start: 0,
+    range: {'min': 0, 'max': 100},
+    step: 2
+});
+
+bicubic.noUiSlider.on('end', function (values) {
+    jQuery.ajax({
+        method: 'GET',
+        url: '/realzado-imagen/redimensionar-nearest',
+        data: {'valor': parseInt(values)}
+    }).success(function (result) {
+        jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
+
+var bilineal = document.getElementById('bilineal');
+noUiSlider.create(bilineal, {
+    start: 0,
+    range: {'min': 0, 'max': 100},
+    step: 2
+});
+
+bilineal.noUiSlider.on('end', function (values) {
+    jQuery.ajax({
+        method: 'GET',
+        url: '/realzado-imagen/redimensionar-nearest',
+        data: {'valor': parseInt(values)}
+    }).success(function (result) {
+        if (result == 'None'){
+            jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
+                'Ha ocurrido un error en la plataforma paralela. ' +
+                '<strong>No se ha podido procesar la imagen</strong>' +
+                '</div>')
+        }
+        else{
+            jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+        }
     })
 });

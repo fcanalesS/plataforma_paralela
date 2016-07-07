@@ -14,7 +14,9 @@ urls = (
     #  Urls ajax para el proceso de imagen
     '/autocorreccion', 'AutoCorreccion',
     '/invertir', 'Invertir',
-    '/redimensionar', 'Redimensionar',
+    '/redimensionar-nearest', 'RedimensionarNearest',
+    '/redimensionar-bicubic', 'RedimensionarBicubic',
+    '/redimensionar-bilineal', 'RedimensionarBilineal',
     '/convolucion', 'Convolucion',
     '/enfoque-desenfoque', 'EnfoqueDesenfoque',
     '/espejo', 'Espejo',
@@ -53,6 +55,7 @@ def variables_locales():
     web.template.Template.globals['op1'] = Opciones().op1
     web.template.Template.globals['op2'] = Opciones().op2
     web.template.Template.globals['op3'] = Opciones().op3
+    web.template.Template.globals['op4'] = Opciones().op4
 
 
 app_realzadoFiltrado.add_processor(web.loadhook(variables_locales))
@@ -89,9 +92,49 @@ class Invertir:
         return jpg_data
 
 
-class Redimensionar:
+class RedimensionarNearest:
     def GET(self):
-        return NotImplemented
+        valor = web.input().valor
+        os.system('mpiexec -np %s python %s/nearest.py %s' % (p, algoritmos_path, valor))
+
+        try:
+            img = cv2.imread(img_path + 'REDIMENCION_NEAREST.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
+
+
+class RedimensionarBicubic:
+    def GET(self):
+        valor = web.input().valor
+        os.system('mpiexec -np %s python %s/bicubic.py %s' % (p, algoritmos_path, valor))
+
+        try:
+            img = cv2.imread(img_path + 'REDIMENCION_BICUBIC.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
+
+
+class RedimensionarBilineal:
+    def GET(self):
+        valor = web.input().valor
+        os.system('mpiexec -np %s python %s/bilineal.py %s' % (p, algoritmos_path, valor))
+
+        try:
+            img = cv2.imread(img_path + 'REDIMENCION_BILINEAL.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
 
 
 class Convolucion:
@@ -160,6 +203,7 @@ class InversionColores:
 
         return jpg_data
 
+
 class EscalaGrises:
     def GET(self):
         os.system('mpiexec -np %s python %s/grises.py' % (p, algoritmos_path))
@@ -170,6 +214,7 @@ class EscalaGrises:
         jpg_data = base64.b64encode(data.tostring())
 
         return jpg_data
+
 
 class EfectoSepia:
     def GET(self):
