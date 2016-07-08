@@ -79,7 +79,7 @@ class MejoraHDR:
 
         file = os.listdir(img_path + 'HDR/')[0]
         hdr_file = img_path + 'HDR/' + file
-        # os.system('unzip %s -d %s' % (hdr_file, img_path + 'HDR/'))
+        os.system('unzip %s -d %s' % (hdr_file, img_path + 'HDR/'))
         # despues de descomprimir borrar el .zip
 
         img_list = os.listdir(img_path + 'HDR/')

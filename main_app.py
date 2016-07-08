@@ -2,6 +2,7 @@ import os, sys, web
 from realzado_filtrado import app_realzadoFiltrado
 from mejora import app_mejora
 from op_mate import app_operadores
+from movimiento import app_movimiento
 
 include_dirs = ['paquetes']
 
@@ -16,6 +17,7 @@ urls = (
     '/realzado-imagen', app_realzadoFiltrado,
     '/mejora', app_mejora,
     '/operadores-matematicos', app_operadores,
+    '/movimiento', app_movimiento
 )
 
 app = web.application(urls, locals())
@@ -74,6 +76,24 @@ class Index:
             else:
                 global message
                 message = 'No se acepta este tipo de archivos, intente nuevamente ! ! !'
+                raise web.seeother('/')
+
+
+class Form2:
+    def POST(self):
+        x = web.input(myfile={})
+        filedir = os.getcwd() + '/images/movimiento/otros'  # change this to the directory you want to store the file in.
+        if 'myfile' in x:  # to check if the file-object is created
+            filepath = x.myfile.filename.replace('\\', '/')  # replaces the windows-style slashes with linux ones.
+            filename = filepath.split('/')[-1]  # splits the and chooses the last part (the filename with extension)
+            if filename.split('.')[-1] == 'zip':
+                fout = open(filedir + '/' + filename, 'w')  # creates the file where the uploaded file should be stored
+                fout.write(x.myfile.file.read())  # writes the uploaded file to the newly created file.
+                fout.close()  # closes the file, upload complete.
+                raise web.seeother('/movimiento/')
+            else:
+                global message
+                message = 'Error, no se puede trabajar con el formato <strong> %s </strong>' % filename.split('.')[-1]
                 raise web.seeother('/')
 
 if __name__ == '__main__':
