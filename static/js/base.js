@@ -67,8 +67,8 @@ jQuery('#sepia').click(function () {
 var nearest = document.getElementById('nearest');
 noUiSlider.create(nearest, {
     start: 0,
-    range: {'min': 0, 'max': 100},
-    step: 2
+    range: {'min': 100, 'max': 5000},
+    step: 500
 });
 
 nearest.noUiSlider.on('end', function (values) {
@@ -99,7 +99,7 @@ noUiSlider.create(bicubic, {
 bicubic.noUiSlider.on('end', function (values) {
     jQuery.ajax({
         method: 'GET',
-        url: '/realzado-imagen/redimensionar-nearest',
+        url: '/realzado-imagen/redimensionar-bicubic',
         data: {'valor': parseInt(values)}
     }).success(function (result) {
         if (result == 'None'){
@@ -124,7 +124,7 @@ noUiSlider.create(bilineal, {
 bilineal.noUiSlider.on('end', function (values) {
     jQuery.ajax({
         method: 'GET',
-        url: '/realzado-imagen/redimensionar-nearest',
+        url: '/realzado-imagen/redimensionar-bilineal',
         data: {'valor': parseInt(values)}
     }).success(function (result) {
         if (result == 'None'){
@@ -138,6 +138,7 @@ bilineal.noUiSlider.on('end', function (values) {
         }
     })
 });
+
 
 jQuery('#bordes').click(function () {
     jQuery.get('/realzado-imagen/posicionar-bordes', function (result) {
@@ -154,7 +155,9 @@ jQuery('#bordes').click(function () {
 });
 
 jQuery('#polar').click(function () {
+    console.log('Efecto polar.');
     jQuery.get('/realzado-imagen/polar', function (result) {
+        console.log('Efecto polar success.');
         jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
     })
 });

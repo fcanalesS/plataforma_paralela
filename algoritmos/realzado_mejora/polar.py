@@ -47,6 +47,6 @@ if __name__ == "__main__":
     tiempo_ejecucion = tiempo_final - tiempo_inicial
     # guardar imagen
     imsave(os.getcwd() + '/images/polar.jpg', wim)
-    plt.imshow(wim)  # se muestra la imagen polar como grafico
+    # plt.imshow(wim)  # se muestra la imagen polar como grafico
     # plt.show()
     print tiempo_ejecucion

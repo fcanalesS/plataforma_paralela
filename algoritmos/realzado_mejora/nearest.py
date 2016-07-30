@@ -233,8 +233,7 @@ def bicubic_paralelo(imagen, ancho, largo):  # ENTRA UNA IMAGEN
 
 
 # MAIN******************************************************************************************************
-image_path = os.getcwd() + '/static/img/'
-img = cv2.imread(image_path + '001.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread(os.getcwd() + '/static/img/001.jpg', cv2.IMREAD_COLOR)
 alt, ancho, canales = img.shape
 
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -244,7 +243,7 @@ imagen = pil_im  # ----> CARGAMOS CUALQUIER IMAGEN
 
 star = time()  # iniciamos cronometro
 
-nearest_paralelo(imagen, sys.argv[1], sys.argv[1])  # ----- > AQUI VAMOS VARIANDO LA FUNCION Y LOS TAMAÑOS
+nearest_paralelo(imagen, int(sys.argv[1]), int(sys.argv[1]))  # ----- > AQUI VAMOS VARIANDO LA FUNCION Y LOS TAMAÑOS
 
 fin = time()  # paramos cronometro
 

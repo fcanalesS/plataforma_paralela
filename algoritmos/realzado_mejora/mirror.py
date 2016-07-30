@@ -36,7 +36,7 @@ else:
         regionEditada = regionEditada[0:alt - 25, 0:ancho]
     else:
         regionEditada = regionEditada[25:alt - 25, 0:ancho]
-    cv2.imwrite(os.getcwd() + '/images/mirrorImage.jpg', regionEditada)
+    cv2.imwrite(os.getcwd() + '/images/regionEditada_' + str(rank) + '.jpg', regionEditada)
     elapsed = time() - start
 
     print "TIEMPO ESPEJO: ", elapsed

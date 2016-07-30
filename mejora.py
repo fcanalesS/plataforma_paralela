@@ -50,7 +50,7 @@ class MejoraBrillo:
     def GET(self):
         brillo = (float(web.input().brillo) + 100) / 100
         os.system('mpiexec -np %s python %s/brillo.py %s' % (p, algoritmos_path, brillo))
-        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
@@ -62,8 +62,8 @@ class MejoraBrillo:
 class MejoraContraste:
     def GET(self):
         contraste = (float(web.input().contraste) + 100) / 100
-        os.system('mpiexec -np %s python %s/brillo.py %s' % (p, algoritmos_path, contraste))
-        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/contraste.py %s' % (p, algoritmos_path, contraste))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)

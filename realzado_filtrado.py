@@ -71,7 +71,7 @@ class helper:
 class AutoCorreccion:
     def GET(self):
         os.system('mpiexec -np %s python %s/automejora.py' % (p, algoritmos_path))
-        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
@@ -83,7 +83,7 @@ class AutoCorreccion:
 class Invertir:
     def GET(self):
         os.system('mpiexec -np %s python %s/espejo.py' % (p, algoritmos_path))
-        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
@@ -94,7 +94,7 @@ class Invertir:
 
 class RedimensionarNearest:
     def GET(self):
-        valor = web.input().valor
+        valor = int(web.input().valor)
         os.system('mpiexec -np %s python %s/nearest.py %s' % (p, algoritmos_path, valor))
 
         try:
@@ -140,9 +140,9 @@ class RedimensionarBilineal:
 class Convolucion:
     def GET(self):
         os.system('mpiexec -np %s python %s/convolucion.py' % (p, algoritmos_path))
-        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
-        img = cv2.imread(img_path + 'regionConvolucion.jpg')
+        img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
         jpg_data = base64.b64encode(data.tostring())
 
@@ -155,10 +155,10 @@ class EnfoqueDesenfoque:
 
         if value < 0:
             os.system('mpiexec -np %s python %s/sharp.py %s' % (p, algoritmos_path, abs(value)))
-            # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+            os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
         elif value > 0:
             os.system('mpiexec -np %s python %s/blur.py %s' % (p, algoritmos_path, abs(value)))
-            # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+            os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
@@ -170,19 +170,20 @@ class EnfoqueDesenfoque:
 class Espejo:
     def GET(self):
         os.system('mpiexec -np %s python %s/mirror.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
         # limpiar
 
-        img = cv2.imread(img_path + 'mirrorImage.jpg')
+        img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
         jpg_data = base64.b64encode(data.tostring())
 
         return jpg_data
 
-        return "None"
 
 class Polar:
     def GET(self):
         os.system('mpiexec -np %s python %s/polar.py' % (p, algoritmos_path))
+
         #limpiar
 
         img = cv2.imread(img_path + 'polar.jpg')
@@ -219,7 +220,7 @@ class DeformacionMalla:
 class InversionColores:
     def GET(self):
         os.system('mpiexec -np %s python %s/negativo.py' % (p, algoritmos_path))
-        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
@@ -231,7 +232,7 @@ class InversionColores:
 class EscalaGrises:
     def GET(self):
         os.system('mpiexec -np %s python %s/grises.py' % (p, algoritmos_path))
-        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
@@ -243,7 +244,7 @@ class EscalaGrises:
 class EfectoSepia:
     def GET(self):
         os.system('mpiexec -np %s python %s/sepia.py' % (p, algoritmos_path))
-        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
         img = cv2.imread(img_path + 'regionEditada_0.jpg')
         _, data = cv2.imencode('.jpg', img)
