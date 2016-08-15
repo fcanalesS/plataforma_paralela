@@ -53,7 +53,7 @@ class MyApp(web.application):
 
 class Index:
     def GET(self):
-        return htmlout.index()
+        return htmlout.index(message)
 
     def POST(self):
         x = web.input(imagen={})

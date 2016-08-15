@@ -73,13 +73,30 @@ class Suma:
 class Index:
     def GET(self):
         otros_path = img_path + '/movimiento/otros'
-        zip_file = os.listdir(otros_path)[0]
 
-        # os.system('unzip %s/%s -d %s' % (otros_path, os.listdir(otros_path)[0], otros_path))
-        # os.system('rm %s/%s' % (otros_path, zip_file))
+        os.system('unzip %s/%s -d %s' % (otros_path, os.listdir(otros_path)[0], otros_path))
+        os.system('rm %s/*.zip' % otros_path)
 
-        # os.system('mpiexec -np %s python %s/bullet.py' % (p, algoritmos_path))
-        # os.system('mpiexec -np %s python %s/stop.py' % (p, algoritmos_path))
-        # os.system('mpiexec -np %s python %s/timelapse.py' % (p, algoritmos_path))
+        img_list = os.listdir(otros_path)
+        img_list.sort()
+        img_aux = cv2.imread(otros_path + '/' + img_list[0], cv2.IMREAD_COLOR)
+        h, w, l = img_aux.shape
+        count = 1
+
+        for i in range(1, len(img_list)):
+            aux = cv2.imread(otros_path + '/' + img_list[i], cv2.IMREAD_COLOR)
+            alt, anch, lay = aux.shape
+            if alt == h and anch == w:
+                count += 1
+            else:
+                count -= 1
+                raise web.seeother('/')
+
+        if count == len(img_list):
+            os.system('mpiexec -np %s python %s/bullet.py' % (p, algoritmos_path))
+            os.system('mpiexec -np %s python %s/stop.py' % (p, algoritmos_path))
+            os.system('mpiexec -np %s python %s/timelapse.py' % (p, algoritmos_path))
+        else:
+            os.system('rm %s/*.*' % otros_path)
 
         return htmlout.index_m()

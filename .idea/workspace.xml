@@ -1,86 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/main_app.py" line="15" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bd7619bc-f740-4307-9f4e-3a5e1b18b333" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/movimiento/suma/001.jpg" afterPath="$PROJECT_DIR$/images/movimiento/suma/001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/movimiento/suma/002.jpg" afterPath="$PROJECT_DIR$/images/movimiento/suma/002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/utem001.jpg" afterPath="$PROJECT_DIR$/static/img/utem001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/utem002.jpg" afterPath="$PROJECT_DIR$/static/img/utem002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/plataforma_paralela.iml" afterPath="$PROJECT_DIR$/.idea/plataforma_paralela.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/mejora/brillo.py" afterPath="$PROJECT_DIR$/algoritmos/mejora/brillo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/mejora/contraste.py" afterPath="$PROJECT_DIR$/algoritmos/mejora/contraste.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/mejora/hdr.py" afterPath="$PROJECT_DIR$/algoritmos/mejora/hdr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/mejora/limpieza.py" afterPath="$PROJECT_DIR$/algoritmos/mejora/limpieza.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/movimiento/bullet.py" afterPath="$PROJECT_DIR$/algoritmos/movimiento/bullet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/movimiento/stop.py" afterPath="$PROJECT_DIR$/algoritmos/movimiento/stop.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/movimiento/suma.py" afterPath="$PROJECT_DIR$/algoritmos/movimiento/suma.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/movimiento/timelapse.py" afterPath="$PROJECT_DIR$/algoritmos/movimiento/timelapse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/operadores_m/conv.py" afterPath="$PROJECT_DIR$/algoritmos/operadores_m/conv.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/operadores_m/fft.py" afterPath="$PROJECT_DIR$/algoritmos/operadores_m/fft.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/operadores_m/log.py" afterPath="$PROJECT_DIR$/algoritmos/operadores_m/log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/automejora.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/automejora.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/bilineal.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/bilineal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/blur.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/blur.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/bordes.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/bordes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/convolucion.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/convolucion.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/espejo.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/espejo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/grises.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/grises.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/limpieza.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/limpieza.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/mirror.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/mirror.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/negativo.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/negativo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/polar.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/polar.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/rgb.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/rgb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/sepia.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/sepia.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/sharp.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/sharp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_app.py" afterPath="$PROJECT_DIR$/main_app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mejora.py" afterPath="$PROJECT_DIR$/mejora.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movimiento.py" afterPath="$PROJECT_DIR$/movimiento.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op_mate.py" afterPath="$PROJECT_DIR$/op_mate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paquetes/layout.py" afterPath="$PROJECT_DIR$/paquetes/layout.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realzado_filtrado.py" afterPath="$PROJECT_DIR$/realzado_filtrado.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/base.css" afterPath="$PROJECT_DIR$/static/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/nouislider.css" afterPath="$PROJECT_DIR$/static/css/nouislider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/nouislider.pips.css" afterPath="$PROJECT_DIR$/static/css/nouislider.pips.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/nouislider.tooltips.css" afterPath="$PROJECT_DIR$/static/css/nouislider.tooltips.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base.js" afterPath="$PROJECT_DIR$/static/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base2.js" afterPath="$PROJECT_DIR$/static/js/base2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base3.js" afterPath="$PROJECT_DIR$/static/js/base3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base4.js" afterPath="$PROJECT_DIR$/static/js/base4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/static/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/static/js/jquery-1.12.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/static/js/jquery-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/nouislider.js" afterPath="$PROJECT_DIR$/static/js/nouislider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/css.html" afterPath="$PROJECT_DIR$/template/css.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/form1.html" afterPath="$PROJECT_DIR$/template/form1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/form2.html" afterPath="$PROJECT_DIR$/template/form2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index.html" afterPath="$PROJECT_DIR$/template/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/integrantes.html" afterPath="$PROJECT_DIR$/template/integrantes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/js.html" afterPath="$PROJECT_DIR$/template/js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/layout.html" afterPath="$PROJECT_DIR$/template/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/mejora/index_m.html" afterPath="$PROJECT_DIR$/template/mejora/index_m.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/mejora/layout.html" afterPath="$PROJECT_DIR$/template/mejora/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/movimiento/index_m.html" afterPath="$PROJECT_DIR$/template/movimiento/index_m.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/movimiento/layout.html" afterPath="$PROJECT_DIR$/template/movimiento/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/operadores_m/index_om.html" afterPath="$PROJECT_DIR$/template/operadores_m/index_om.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/operadores_m/layout.html" afterPath="$PROJECT_DIR$/template/operadores_m/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/index_rf.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/index_rf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/layout.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/op1.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/op1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/op2.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/op2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/op3.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/op3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/op4.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/op4.html" />
     </list>
     <ignored path="plataforma_paralela.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,7 +24,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/plataforma_paralela$main_app.coverage" NAME="main_app Coverage Results" MODIFIED="1469718149149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plataforma_paralela$main_app.coverage" NAME="main_app Coverage Results" MODIFIED="1471291516364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plataforma_paralela$realzado_filtrado.coverage" NAME="realzado_filtrado Coverage Results" MODIFIED="1467645673752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -105,12 +35,12 @@
     <favorites_list name="plataforma_paralela" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="main_app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="176">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -118,11 +48,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="op_mate.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/op_mate.py">
+      <file leaf-file-name="movimiento.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movimiento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+            <state relative-caret-position="468">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bullet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/bullet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stop.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/stop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timelapse.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/timelapse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -145,9 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/negativo.py" />
-        <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/sepia.py" />
-        <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/grises.py" />
         <option value="$PROJECT_DIR$/static/css/base.css" />
         <option value="$PROJECT_DIR$/template/realzado_filtrado/op2.html" />
         <option value="$PROJECT_DIR$/template/realzado_filtrado/op3.html" />
@@ -175,11 +132,8 @@
         <option value="$PROJECT_DIR$/template/form2.html" />
         <option value="$PROJECT_DIR$/algoritmos/movimiento/suma.py" />
         <option value="$PROJECT_DIR$/static/js/base4.js" />
-        <option value="$PROJECT_DIR$/main_app.py" />
-        <option value="$PROJECT_DIR$/algoritmos/movimiento/bullet.py" />
         <option value="$PROJECT_DIR$/algoritmos/movimiento/timelapse.py" />
         <option value="$PROJECT_DIR$/algoritmos/movimiento/stop.py" />
-        <option value="$PROJECT_DIR$/movimiento.py" />
         <option value="$PROJECT_DIR$/template/movimiento/index_m.html" />
         <option value="$PROJECT_DIR$/template/realzado_filtrado/layout.html" />
         <option value="$PROJECT_DIR$/template/mejora/layout.html" />
@@ -196,6 +150,12 @@
         <option value="$PROJECT_DIR$/static/js/base.js" />
         <option value="$PROJECT_DIR$/realzado_filtrado.py" />
         <option value="$PROJECT_DIR$/mejora.py" />
+        <option value="$PROJECT_DIR$/template/integrantes.html" />
+        <option value="$PROJECT_DIR$/template/form1.html" />
+        <option value="$PROJECT_DIR$/algoritmos/movimiento/bullet.py" />
+        <option value="$PROJECT_DIR$/template/index.html" />
+        <option value="$PROJECT_DIR$/main_app.py" />
+        <option value="$PROJECT_DIR$/movimiento.py" />
       </list>
     </option>
   </component>
@@ -264,6 +224,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plataforma_paralela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plataforma_paralela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plataforma_paralela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plataforma_paralela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -278,6 +266,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plataforma_paralela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plataforma_paralela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="algoritmos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -296,7 +302,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="operadores_m" />
+              <option name="myItemId" value="movimiento" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -602,15 +608,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="745" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29502195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21669106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34405145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34405145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -620,9 +627,28 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34405145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21669106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -645,75 +671,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/movimiento/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/form2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/suma.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="113" column="81" selection-start-line="113" selection-start-column="73" selection-end-line="113" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/base3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="9" selection-start-line="2" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/base4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/movimiento/otros/001.jpg" />
     <entry file="file://$PROJECT_DIR$/images/movimiento/otros/000.jpg" />
     <entry file="file://$PROJECT_DIR$/template/movimiento/index_m.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/stop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/timelapse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/bullet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="32" selection-start-line="15" selection-start-column="0" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movimiento.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -750,16 +712,6 @@
         <state relative-caret-position="108">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/movimiento/suma/002.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/movimiento/suma/001.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/operadores_m/layout.html">
@@ -947,17 +899,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/rgbout.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/integrantes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/movimiento/suma/002.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/movimiento/suma/001.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/form1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/suma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1696">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/bullet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/stop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/movimiento/timelapse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mejora.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="-133">
           <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/movimiento/otros/1defb6f808a5847680b26839534e96fd.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="176">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -966,8 +997,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/op_mate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="-2">
           <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimiento.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding />
         </state>
       </provider>
