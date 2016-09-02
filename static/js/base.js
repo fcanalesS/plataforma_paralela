@@ -63,19 +63,35 @@ jQuery('#sepia').click(function () {
     })
 });
 
+/**********************Nuevo interpolación nearest **************************/
+/****************************AGREGAR ESTO ************************************/
+/****************************AGREGAR ESTO ************************************/
+/****************************AGREGAR ESTO ************************************/
+/****************************AGREGAR ESTO ************************************/
+/****************************AGREGAR ESTO ************************************/
 
-var nearest = document.getElementById('nearest');
-noUiSlider.create(nearest, {
-    start: 0,
-    range: {'min': 100, 'max': 5000},
-    step: 500
-});
+/*Borrar las interpolaciones antiguas y reemplazarla por lo que está dentro de los comentarios*/
 
-nearest.noUiSlider.on('end', function (values) {
+var nearest = document.getElementsByClassName('Inear');
+for (var i = 0; i < nearest.length; i++) {
+    noUiSlider.create(nearest[i], {
+        start: 10,
+        connect: "lower",
+        orientation: "horizontal",
+        tooltips: true,
+        range: {
+            'min': 10,
+            'max': 10000
+        }
+    });
+    nearest[i].noUiSlider.on('end', setValueNearest);
+}
+
+function setValueNearest() {
     jQuery.ajax({
         method: 'GET',
         url: '/realzado-imagen/redimensionar-nearest',
-        data: {'valor': parseInt(values)}
+        data: {'alto': parseInt(nearest[0].noUiSlider.get()), 'ancho': parseInt(nearest[1].noUiSlider.get())}
     }).success(function (result) {
         if (result == 'None'){
             jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
@@ -87,20 +103,30 @@ nearest.noUiSlider.on('end', function (values) {
             jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
         }
     })
-});
+}
+/**********************Nuevo interpolación nearest **************************/
 
-var bicubic = document.getElementById('bicubic');
-noUiSlider.create(bicubic, {
-    start: 0,
-    range: {'min': 0, 'max': 100},
-    step: 2
-});
+/**********************Nueva interpolación bicubic **************************/
+var bicubic = document.getElementsByClassName('Ibic');
+for (var i = 0; i < bicubic.length; i++) {
+    noUiSlider.create(bicubic[i], {
+        start: 10,
+        connect: "lower",
+        orientation: "horizontal",
+        tooltips: true,
+        range: {
+            'min': 10,
+            'max': 10000
+        }
+    });
+    bicubic[i].noUiSlider.on('end', setValueBicubic);
+}
 
-bicubic.noUiSlider.on('end', function (values) {
+function setValueBicubic() {
     jQuery.ajax({
         method: 'GET',
         url: '/realzado-imagen/redimensionar-bicubic',
-        data: {'valor': parseInt(values)}
+        data: {'alto': parseInt(bicubic[0].noUiSlider.get()), 'ancho': parseInt(bicubic[1].noUiSlider.get())}
     }).success(function (result) {
         if (result == 'None'){
             jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
@@ -112,20 +138,30 @@ bicubic.noUiSlider.on('end', function (values) {
             jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
         }
     })
-});
+}
+/**********************Nueva interpolación bicubic **************************/
 
-var bilineal = document.getElementById('bilineal');
-noUiSlider.create(bilineal, {
-    start: 0,
-    range: {'min': 0, 'max': 100},
-    step: 2
-});
+/**********************Nueva interpolación bilineal **************************/
+var bilineal = document.getElementsByClassName('Ibil');
+for (var i = 0; i < bilineal.length; i++) {
+    noUiSlider.create(bilineal[i], {
+        start: 10,
+        connect: "lower",
+        orientation: "horizontal",
+        tooltips: true,
+        range: {
+            'min': 10,
+            'max': 255
+        }
+    });
+    bilineal[i].noUiSlider.on('end', setValueBilineal);
+}
 
-bilineal.noUiSlider.on('end', function (values) {
+function setValueBilineal() {
     jQuery.ajax({
         method: 'GET',
         url: '/realzado-imagen/redimensionar-bilineal',
-        data: {'valor': parseInt(values)}
+        data: {'alto': parseInt(bilineal[0].noUiSlider.get()), 'ancho': parseInt(bilineal[1].noUiSlider.get())}
     }).success(function (result) {
         if (result == 'None'){
             jQuery('.imagen').html('<div class="alert alert-danger text-center" role="alert">' +
@@ -137,7 +173,12 @@ bilineal.noUiSlider.on('end', function (values) {
             jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
         }
     })
-});
+}
+/**********************Nueva interpolación bilineal **************************/
+/****************************AGREGAR ESTO ************************************/
+/****************************AGREGAR ESTO ************************************/
+/****************************AGREGAR ESTO ************************************/
+/****************************AGREGAR ESTO ************************************/
 
 
 jQuery('#bordes').click(function () {

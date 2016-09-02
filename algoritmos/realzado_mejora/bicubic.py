@@ -245,7 +245,7 @@ imagen = pil_im  # ----> CARGAMOS CUALQUIER IMAGEN
 
 star = time()  # iniciamos cronometro
 
-bicubic_paralelo(imagen, int(argv[1]), int(argv[1]))  # ----- > AQUI VAMOS VARIANDO LA FUNCION Y LOS TAMAÑOS
+bicubic_paralelo(imagen, int(argv[1]), int(argv[2]))  # ----- > AQUI VAMOS VARIANDO LA FUNCION Y LOS TAMAÑOS
 
 fin = time()  # paramos cronometro
 

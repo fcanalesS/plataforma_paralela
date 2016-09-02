@@ -243,7 +243,7 @@ imagen = pil_im  # ----> CARGAMOS CUALQUIER IMAGEN
 
 star = time()  # iniciamos cronometro
 
-nearest_paralelo(imagen, int(sys.argv[1]), int(sys.argv[1]))  # ----- > AQUI VAMOS VARIANDO LA FUNCION Y LOS TAMAÑOS
+nearest_paralelo(imagen, int(sys.argv[1]), int(sys.argv[2]))  # ----- > AQUI VAMOS VARIANDO LA FUNCION Y LOS TAMAÑOS
 
 fin = time()  # paramos cronometro
 
