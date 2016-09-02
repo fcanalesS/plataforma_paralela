@@ -16,9 +16,13 @@ urls = (
     #  Urls ajax para el proceso de imagen
     '/fft', 'FFT',
     '/log', 'LOG',
+    #Agregar estas lineas
+    #Agregar estas lineas
     '/disp-gauss', 'DispGauss',
     '/conv', 'Conv',
     '/desconv', 'DesConv'
+    #Agregar estas lineas
+    #Agregar estas lineas
 )
 
 app_operadores = web.application(urls, locals())
@@ -123,9 +127,9 @@ class DesConv:
             return jpg_data
         except:
             print "ERROR"
-
-
-########################################Convolucion y desconvolucion
+########################################Convolucion, desconvolucion y dispersion gaussiana
+# Agregar un archivo de limpieza.py (cualquiera que este dentro de la carpeta algoritmos)
+# para que funcione la disp gaussiana
 
 
 class Index:

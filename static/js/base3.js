@@ -18,6 +18,10 @@ jQuery('#laplace').click(function () {
     })
 });
 
+/* Agregar esto en el archivo base3.js */
+/* Agregar esto en el archivo base3.js */
+/* Agregar esto en el archivo base3.js */
+
 jQuery('#disp-gauss').click(function () {
     jQuery.get('/operadores-matematicos/disp-gauss', function (result) {
         jQuery('#imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
@@ -35,3 +39,7 @@ jQuery('#desconv').click(function () {
         jQuery('#imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
     })
 });
+
+/* Agregar esto en el archivo base3.js */
+/* Agregar esto en el archivo base3.js */
+/* Agregar esto en el archivo base3.js */
