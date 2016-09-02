@@ -16,6 +16,9 @@ urls = (
     #  Urls ajax para el proceso de imagen
     '/fft', 'FFT',
     '/log', 'LOG',
+    '/disp-gauss', 'DispGauss',
+    '/conv', 'Conv',
+    '/desconv', 'DesConv'
 )
 
 app_operadores = web.application(urls, locals())
@@ -73,6 +76,56 @@ class LOG:
             return jpg_data
         except:
             print "ERROR"
+
+
+########################################Convolucion, desconvolucion y dispersion gaussiana
+# Agregar un archivo de limpieza.py (cualquiera que este dentro de la carpeta algoritmos)
+# para que funcione la disp gaussiana
+
+class DispGauss:
+    def GET(self):
+        os.system('mpiexec -np %s python %s/disp_gauss.py' % (p, algoritmos_path))
+        #modificar por 'mpirun -np %s --hostfile /home/paralelas/hostfile python %s/disp_gauss.py' o lo que sea parecido
+        os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+        # modificar por 'mpirun -np %s --hostfile /home/paralelas/hostfile python %s/limpieza.py' o lo que sea parecido
+
+        try:
+            img = cv2.imread(img_path + 'regionEditada_0.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
+
+
+class Conv:
+    def GET(self):
+        os.system('mpiexec -np %s python %s/conv.py' % (p, algoritmos_path))
+        # modificar por 'mpirun -np %s --hostfile /home/paralelas/hostfile python %s/conv.py' o lo que sea parecido
+        try:
+            img = cv2.imread(img_path + 'CONVOLUCION_PARALELO.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
+
+
+class DesConv:
+    def GET(self):
+        try:
+            img = cv2.imread(img_path + 'DESCONVOLUCION_PARALELO.jpg')
+            _, data = cv2.imencode('.jpg', img)
+            jpg_data = base64.b64encode(data.tostring())
+
+            return jpg_data
+        except:
+            print "ERROR"
+
+
+########################################Convolucion y desconvolucion
 
 
 class Index:

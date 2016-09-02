@@ -167,7 +167,8 @@ def convolucion_paralelo(imagen):  # ENTRA UNA IMAGEN
             if i == 1:
                 construcImg = comm.recv(source=i)
         imgContrucFinal = Image.fromarray(construcImg)
-        imgContrucFinal.save("CONVOLUCION_PARALELO.jpg")  # GUARDAMOS LA IMAGEN CONVOLUCIONADA
+        imgContrucFinal.save(os.getcwd() +
+                             "/images/CONVOLUCION_PARALELO.jpg")  # GUARDAMOS LA IMAGEN CONVOLUCIONADA
         return imgContrucFinal  # retornamos la fotografia convolucionada PARA QUE PEDA SER OCUPADA POR DESCONVOLUCION
 
 
@@ -189,8 +190,8 @@ def desconvolucion_paralelo(imagen):  # entra una imagen convolucionada
             if i == 1:
                 construcImg = comm.recv(source=i)
         imgContrucFinal = Image.fromarray(construcImg)
-        original.save(
-            "DESCONVOLUCION_PARALELO.jpg")  # guardamos la imagen original, simulando una desconvolucion EL HTOP SE MUEVE, TODO REAL
+        original.save(os.getcwd() +
+                      "/images/DESCONVOLUCION_PARALELO.jpg")  # guardamos la imagen original, simulando una desconvolucion EL HTOP SE MUEVE, TODO REAL
 
 
 # ******************* MAIN******************************************************************************
@@ -210,7 +211,6 @@ if rank == 0:
 tiempo_inicial2 = time()  # iniciamos reloj
 desconvolucion_paralelo(imagen_convolucion)  # OCUPAMOS LA IMAGEN CONVOLUCIONADA PARA SIMULAR QUE SE DESCONVOLUCIONA
 tiempo_final2 = time()  # paramos reloj
-# FUE LA UNICA SOLUCION INGENIERIL QE SE ME OCURRIO
 tiempo_ejecucion2 = tiempo_final2 - tiempo_inicial2
 
 if rank == 0:

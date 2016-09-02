@@ -17,3 +17,21 @@ jQuery('#laplace').click(function () {
         jQuery('#imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
     })
 });
+
+jQuery('#disp-gauss').click(function () {
+    jQuery.get('/operadores-matematicos/disp-gauss', function (result) {
+        jQuery('#imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
+
+jQuery('#conv').click(function () {
+    jQuery.get('/operadores-matematicos/conv', function (result) {
+        jQuery('#imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
+
+jQuery('#desconv').click(function () {
+    jQuery.get('/operadores-matematicos/desconv', function (result) {
+        jQuery('#imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
+    })
+});
