@@ -96,6 +96,7 @@ class RedimensionarNearest:
     def GET(self):
         ancho, alto = int(web.input().ancho), int(web.input().ancho)
         os.system('mpiexec -np %s python %s/nearest.py %s %s' % (p, algoritmos_path, ancho, alto))
+        # cambiar por 'mpirun -np %s --hostfile /home/paralelas/hostfile python %s/nearest.py %s %s' % (p, algoritmos_path, ancho, alto)
 
         try:
             img = cv2.imread(img_path + 'REDIMENCION_NEAREST.jpg')
@@ -111,6 +112,7 @@ class RedimensionarBicubic:
     def GET(self):
         ancho, alto = web.input().ancho, web.input().alto
         os.system('mpiexec -np %s python %s/bicubic.py %s %s' % (p, algoritmos_path, ancho, alto))
+        # cambiar por 'mpirun -np %s --hostfile /home/paralelas/hostfile python %s/bicubic.py %s %s' % (p, algoritmos_path, ancho, alto)
 
         try:
             img = cv2.imread(img_path + 'REDIMENCION_BICUBIC.jpg')
@@ -126,6 +128,7 @@ class RedimensionarBilineal:
     def GET(self):
         ancho, alto = web.input().ancho, web.input().alto
         os.system('mpiexec -np %s python %s/bilineal.py %s %s' % (p, algoritmos_path, ancho, alto))
+        #cambiar por 'mpirun -np %s --hostfile /home/paralelas/hostfile python %s/bilineal.py %s %s' % (p, algoritmos_path, ancho, alto)
 
         try:
             img = cv2.imread(img_path + 'REDIMENCION_BILINEAL.jpg')

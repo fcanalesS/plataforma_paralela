@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd7619bc-f740-4307-9f4e-3a5e1b18b333" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/bilineal.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/bilineal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realzado_filtrado.py" afterPath="$PROJECT_DIR$/realzado_filtrado.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base.js" afterPath="$PROJECT_DIR$/static/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/op4.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/op4.html" />
     </list>
     <ignored path="plataforma_paralela.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="-166">
               <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
@@ -80,18 +74,18 @@
       <file leaf-file-name="nearest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="446">
               <caret line="243" column="37" selection-start-line="243" selection-start-column="37" selection-end-line="243" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="realzado_filtrado.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="realzado_filtrado.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="132" column="56" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
+            <state relative-caret-position="203">
+              <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -161,10 +155,10 @@
         <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py" />
         <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py" />
         <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py" />
-        <option value="$PROJECT_DIR$/realzado_filtrado.py" />
         <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/bilineal.py" />
         <option value="$PROJECT_DIR$/template/realzado_filtrado/op4.html" />
         <option value="$PROJECT_DIR$/static/js/base.js" />
+        <option value="$PROJECT_DIR$/realzado_filtrado.py" />
       </list>
     </option>
   </component>
@@ -933,30 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="132" column="56" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="243" column="37" selection-start-line="243" selection-start-column="37" selection-end-line="243" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/bilineal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -975,8 +945,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="-166">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="243" column="37" selection-start-line="243" selection-start-column="37" selection-end-line="243" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
           <folding />
         </state>
       </provider>
