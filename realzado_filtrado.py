@@ -301,10 +301,12 @@ class Traspuesta:
         os.system('mpiexec -np %s python %s/traspuesta.py %s' % (p, algoritmos_path, angle))
         # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
 
-        traspose_images = os.listdir(os.getcwd() + '/images/traspuesta/')
-        traspose_images.sort()
+        traspose = cv2.imread(os.getcwd() + '/images/traspuesta/regionEditada_0.jpg', cv2.IMREAD_COLOR)
+        _, data = cv2.imencode('.jpg', traspose)
+        jpg_data = base64.b64encode(data.tostring())
 
-        return angle
+
+        return jpg_data
 
 
 ########  Procesamiento de imagenes  ########

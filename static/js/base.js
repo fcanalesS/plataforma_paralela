@@ -189,8 +189,7 @@ traspuesta.noUiSlider.on('end', function (values) {
         url: '/realzado-imagen/traspuesta',
         data: {angle: parseInt(values)}
     }).success(function (result) {
-        //document.getElementById('imagen').innerHTML = '<img class="img img-responsive" src="data:images/jpeg;base64,' + result + '">'
-       console.log(result)
+       jQuery('.imagen').html('<img class="img img-responsive" src="data:images/jpeg;base64,'+ result + '" alt="">')
     })
 });
 
