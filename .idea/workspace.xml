@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/main_app.py" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd7619bc-f740-4307-9f4e-3a5e1b18b333" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoritmos/realzado_mejora/traspuesta.py" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/traspuesta.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realzado_filtrado.py" afterPath="$PROJECT_DIR$/realzado_filtrado.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base.js" afterPath="$PROJECT_DIR$/static/js/base.js" />
-    </list>
+    <list default="true" id="bd7619bc-f740-4307-9f4e-3a5e1b18b333" name="Default" comment="" />
     <ignored path="plataforma_paralela.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -44,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mirror.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mirror.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/mirror.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -56,11 +51,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="log_ri.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="realzado_filtrado.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="308" column="23" selection-start-line="308" selection-start-column="23" selection-end-line="308" selection-end-column="23" />
+            <state relative-caret-position="196">
+              <caret line="275" column="6" selection-start-line="275" selection-start-column="6" selection-end-line="275" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -269,7 +274,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="base2&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base2.js&#10;bicu&#9;null&#9;null&#10;bilineal&#9;null&#9;null&#10;bicubi&#9;null&#9;null&#10;nea&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/nearest.py&#10;neare&#9;null&#9;null&#10;sepia&#9;null&#9;null&#10;bordes&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/bordes.py&#10;polar&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/polar.py&#10;blur&#9;null&#9;null&#10;sharp&#9;null&#9;null&#10;limpie&#9;null&#9;null&#10;Espej&#9;null&#9;null&#10;base&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base3.js&#10;base3&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base3.js&#10;Espejo&#9;null&#9;null&#10;Efe&#9;null&#9;null&#10;Efecto&#9;null&#9;null&#10;Polar&#9;null&#9;null&#10;Posici&#9;null&#9;null&#10;op1&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/template/realzado_filtrado/op1.html&#10;layou&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;yout&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;base.js&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base2.js&#10;layout&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;base.&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base.js&#10;base.c&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/css/base.css&#10;base.css&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/css/base.css" />
+    <property name="SearchEverywhereHistoryKey" value="EfectoLo&#9;null&#9;null&#10;base2&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base2.js&#10;bicu&#9;null&#9;null&#10;bilineal&#9;null&#9;null&#10;bicubi&#9;null&#9;null&#10;nea&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/nearest.py&#10;neare&#9;null&#9;null&#10;sepia&#9;null&#9;null&#10;bordes&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/bordes.py&#10;polar&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/polar.py&#10;blur&#9;null&#9;null&#10;sharp&#9;null&#9;null&#10;limpie&#9;null&#9;null&#10;Espej&#9;null&#9;null&#10;base&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base3.js&#10;base3&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base3.js&#10;Espejo&#9;null&#9;null&#10;Efe&#9;null&#9;null&#10;Efecto&#9;null&#9;null&#10;Polar&#9;null&#9;null&#10;Posici&#9;null&#9;null&#10;op1&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/template/realzado_filtrado/op1.html&#10;layou&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;yout&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;base.js&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base2.js&#10;layout&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;base.&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base.js&#10;base.c&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/css/base.css&#10;base.css&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/css/base.css" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -562,7 +567,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="745" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21669106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -846,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -940,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="308" column="23" selection-start-line="308" selection-start-column="23" selection-end-line="308" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -958,11 +948,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/mirror.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="275" column="6" selection-start-line="275" selection-start-column="6" selection-end-line="275" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/log_ri.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
