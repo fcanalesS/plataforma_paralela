@@ -32,6 +32,8 @@ urls = (
     '/log', 'EfectoLog',
     '/efecto-3d-de-imagenes-2d', 'Efecto3Dsobre2D',
     '/zooming', 'EfectoZooming',
+    #traspuesta
+    '/traspuesta', 'Traspuesta'
 
 )
 
@@ -128,7 +130,7 @@ class RedimensionarBilineal:
     def GET(self):
         ancho, alto = web.input().ancho, web.input().alto
         os.system('mpiexec -np %s python %s/bilineal.py %s %s' % (p, algoritmos_path, ancho, alto))
-        #cambiar por 'mpirun -np %s --hostfile /home/paralelas/hostfile python %s/bilineal.py %s %s' % (p, algoritmos_path, ancho, alto)
+        # cambiar por 'mpirun -np %s --hostfile /home/paralelas/hostfile python %s/bilineal.py %s %s' % (p, algoritmos_path, ancho, alto)
 
         try:
             img = cv2.imread(img_path + 'REDIMENCION_BILINEAL.jpg')
@@ -187,7 +189,7 @@ class Polar:
     def GET(self):
         os.system('mpiexec -np %s python %s/polar.py' % (p, algoritmos_path))
 
-        #limpiar
+        # limpiar
 
         img = cv2.imread(img_path + 'polar.jpg')
         _, data = cv2.imencode('.jpg', img)
@@ -289,6 +291,20 @@ class Efecto3Dsobre2D:
 class EfectoZooming:
     def GET(self):
         return NotImplemented
+
+
+#Traspuesta agregada
+class Traspuesta:
+    def GET(self):
+        angle = web.input().angle
+
+        os.system('mpiexec -np %s python %s/traspuesta.py %s' % (p, algoritmos_path, angle))
+        # os.system('mpiexec -np %s python %s/limpieza.py' % (p, algoritmos_path))
+
+        traspose_images = os.listdir(os.getcwd() + '/images/traspuesta/')
+        traspose_images.sort()
+
+        return angle
 
 
 ########  Procesamiento de imagenes  ########

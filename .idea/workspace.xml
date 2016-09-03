@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd7619bc-f740-4307-9f4e-3a5e1b18b333" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/realzado_mejora/traspuesta.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realzado_filtrado.py" afterPath="$PROJECT_DIR$/realzado_filtrado.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base.js" afterPath="$PROJECT_DIR$/static/js/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/realzado_filtrado/op1.html" afterPath="$PROJECT_DIR$/template/realzado_filtrado/op1.html" />
     </list>
     <ignored path="plataforma_paralela.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,58 +38,60 @@
       <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-166">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="180" column="32" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="op4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/realzado_filtrado/op4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="103" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bilineal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/bilineal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="247" column="50" selection-start-line="247" selection-start-column="50" selection-end-line="247" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bicubic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nearest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="243" column="37" selection-start-line="243" selection-start-column="37" selection-end-line="243" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="realzado_filtrado.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="realzado_filtrado.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
+            <state relative-caret-position="396">
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="traspuesta.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/traspuesta.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sharp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/sharp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="12" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_rf.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/realzado_filtrado/index_rf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="op1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/realzado_filtrado/op1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -108,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template/realzado_filtrado/op2.html" />
         <option value="$PROJECT_DIR$/template/realzado_filtrado/op3.html" />
         <option value="$PROJECT_DIR$/template/js.html" />
         <option value="$PROJECT_DIR$/algoritmos/mejora/bc.py" />
@@ -125,7 +130,6 @@
         <option value="$PROJECT_DIR$/template/css.html" />
         <option value="$PROJECT_DIR$/algoritmos/operadores_m/log.py" />
         <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/rgb.py" />
-        <option value="$PROJECT_DIR$/template/realzado_filtrado/op1.html" />
         <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/espejo.py" />
         <option value="$PROJECT_DIR$/template/movimiento/layout.html" />
         <option value="$PROJECT_DIR$/template/form2.html" />
@@ -158,7 +162,9 @@
         <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/bilineal.py" />
         <option value="$PROJECT_DIR$/template/realzado_filtrado/op4.html" />
         <option value="$PROJECT_DIR$/static/js/base.js" />
+        <option value="$PROJECT_DIR$/algoritmos/realzado_mejora/traspuesta.py" />
         <option value="$PROJECT_DIR$/realzado_filtrado.py" />
+        <option value="$PROJECT_DIR$/template/realzado_filtrado/op1.html" />
       </list>
     </option>
   </component>
@@ -242,11 +248,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="algoritmos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="realzado_filtrado" />
+              <option name="myItemId" value="realzado_mejora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plataforma_paralela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plataforma_paralela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algoritmos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,7 +278,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="bicu&#9;null&#9;null&#10;bilineal&#9;null&#9;null&#10;bicubi&#9;null&#9;null&#10;nea&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/nearest.py&#10;neare&#9;null&#9;null&#10;sepia&#9;null&#9;null&#10;bordes&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/bordes.py&#10;polar&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/polar.py&#10;blur&#9;null&#9;null&#10;sharp&#9;null&#9;null&#10;limpie&#9;null&#9;null&#10;Espej&#9;null&#9;null&#10;base&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base3.js&#10;base3&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base3.js&#10;Espejo&#9;null&#9;null&#10;Efe&#9;null&#9;null&#10;Efecto&#9;null&#9;null&#10;Polar&#9;null&#9;null&#10;Posici&#9;null&#9;null&#10;op1&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/template/realzado_filtrado/op1.html&#10;layou&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;yout&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;base2&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base2.js&#10;base.js&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base2.js&#10;layout&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;base.&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base.js&#10;base.c&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/css/base.css&#10;base.css&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/css/base.css" />
+    <property name="SearchEverywhereHistoryKey" value="base2&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base2.js&#10;bicu&#9;null&#9;null&#10;bilineal&#9;null&#9;null&#10;bicubi&#9;null&#9;null&#10;nea&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/nearest.py&#10;neare&#9;null&#9;null&#10;sepia&#9;null&#9;null&#10;bordes&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/bordes.py&#10;polar&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/algoritmos/realzado_mejora/polar.py&#10;blur&#9;null&#9;null&#10;sharp&#9;null&#9;null&#10;limpie&#9;null&#9;null&#10;Espej&#9;null&#9;null&#10;base&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base3.js&#10;base3&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base3.js&#10;Espejo&#9;null&#9;null&#10;Efe&#9;null&#9;null&#10;Efecto&#9;null&#9;null&#10;Polar&#9;null&#9;null&#10;Posici&#9;null&#9;null&#10;op1&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/template/realzado_filtrado/op1.html&#10;layou&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;yout&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;base.js&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base2.js&#10;layout&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/paquetes/layout.py&#10;base.&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/js/base.js&#10;base.c&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/css/base.css&#10;base.css&#9;FILE&#9;file:///home/fcanales/PycharmProjects/plataforma_paralela/static/css/base.css" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -559,18 +579,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34405145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34405145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -609,23 +629,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/img/001.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/mirror.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/limpieza.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -640,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/sharp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/blur.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -654,11 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/regionEditada_0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/regionEditada_0.jpg" />
     <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/bordes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -673,11 +670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/REDIMENCION_NEAREST.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/REDIMENCION_NEAREST.jpg" />
     <entry file="file://$PROJECT_DIR$/template/realzado_filtrado/op3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -721,11 +714,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/rgbout.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rgbout.jpg" />
     <entry file="file://$PROJECT_DIR$/template/integrantes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -764,11 +753,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/movimiento/otros/1defb6f808a5847680b26839534e96fd.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/movimiento/otros/1defb6f808a5847680b26839534e96fd.jpg" />
     <entry file="file://$PROJECT_DIR$/main_app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -811,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,9 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="170" column="38" selection-start-line="170" selection-start-column="38" selection-end-line="170" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="36" column="67" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,15 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/realzado_filtrado/op1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,15 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/base2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,6 +880,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-256">
           <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="243" column="37" selection-start-line="243" selection-start-column="37" selection-end-line="243" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -935,42 +906,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/base2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/realzado_filtrado/op4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="26" column="103" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/realzado_filtrado/index_rf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/sharp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/traspuesta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="180" column="32" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/nearest.py">
+    <entry file="file://$PROJECT_DIR$/template/realzado_filtrado/op1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="243" column="37" selection-start-line="243" selection-start-column="37" selection-end-line="243" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/realzado_mejora/bicubic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/realzado_filtrado.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
+        <state relative-caret-position="234">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -174,6 +174,26 @@ function setValueBilineal() {
         }
     })
 }
+
+var traspuesta = document.getElementById('traspuesta');
+noUiSlider.create(traspuesta, {
+    start: 0,
+    range: {'min': 0, 'max': 270},
+    tooltips: true,
+    step: 90
+});
+
+traspuesta.noUiSlider.on('end', function (values) {
+   jQuery.ajax({
+        method: 'get',
+        url: '/realzado-imagen/traspuesta',
+        data: {angle: parseInt(values)}
+    }).success(function (result) {
+        //document.getElementById('imagen').innerHTML = '<img class="img img-responsive" src="data:images/jpeg;base64,' + result + '">'
+       console.log(result)
+    })
+});
+
 /**********************Nueva interpolación bilineal **************************/
 /****************************AGREGAR ESTO ************************************/
 /****************************AGREGAR ESTO ************************************/
